@@ -36,8 +36,8 @@ Fallbacks: If no keyword or pattern matches, defaults to "I SEE."
 This mimics ELIZA's algorithm without true intelligence—just clever pattern substitution!
 
 <h2>Examples</h2>
-<img src="C:\Users\hp\OneDrive\Pictures\Screenshots\eliza output.png" width="200" height="200" alt="Logo">
 
+<img width="1920" height="1080" alt="eliza output" src="https://github.com/user-attachments/assets/e9f725e2-7e61-4c8d-ac16-92affe7654bd" />
 
 <h2>Extending the Project</h2>
 
