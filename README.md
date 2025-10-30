@@ -1,16 +1,17 @@
-ELIZA Chatbot
-Description
-This is a simple implementation of the classic ELIZA chatbot, an early natural language processing program developed by Joseph Weizenbaum in the 1960s. ELIZA simulates a Rogerian psychotherapist by using pattern matching and substitution to create the illusion of understanding. This version is built in Python and follows a step-by-step challenge to recreate ELIZA's core logic.
+<h1>ELIZA Chatbot</h1>
+<h2>Description</h2>
+<h3>This is a simple implementation of the classic ELIZA chatbot, an early natural language processing program developed by Joseph Weizenbaum in the 1960s. ELIZA simulates a Rogerian psychotherapist by using pattern matching and substitution to create the illusion of understanding. This version is built in Python and follows a step-by-step challenge to recreate ELIZA's core logic.
 
-Inspired by the original DOCTOR script, this chatbot responds to user inputs by mirroring concerns, turning questions back on the user, and providing therapist-like replies. It's a fun way to explore early AI concepts and see if modern users still fall for the "ELIZA effect"!
+Inspired by the original DOCTOR script, this chatbot responds to user inputs by mirroring concerns, turning questions back on the user, and providing therapist-like replies. It's a fun way to explore early AI concepts and see if modern users still fall for the "ELIZA effect"!</h3>
 
-Features
-Pattern Matching: Uses regex-based decomposition rules to match user inputs against keywords like "HELLO", "WHY", "WHAT", and "BYE".
+<h2>Features</h2>
+
+<h3>Pattern Matching: Uses regex-based decomposition rules to match user inputs against keywords like "HELLO", "WHY", "WHAT", and "BYE".
 Dynamic Responses: Generates varied replies by randomly selecting from response lists and substituting placeholders with user input parts.
 Keyword Priority: Processes keywords in order of priority (e.g., "HELLO" before "WHY").
 Fallback Handling: Responds with generic phrases like "I SEE." for unmatched inputs.
 Quit Functionality: Allows users to exit with commands like "quit", "goodbye", or "bye".
-Extensible: Rules are stored in a data structure, making it easy to add more patterns or load from a file.
+Extensible: Rules are stored in a data structure, making it easy to add more patterns or load from a file.</h3>
 
 Usage
 Starting: Run the script as above. ELIZA will display a welcome message.
